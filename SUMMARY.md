@@ -6,4 +6,5 @@
 
 * [Terraform Cloud Introduction](terraform-cloud/terraform-cloud-introduction.md)
 * [Sign up for Terraform Cloud](terraform-cloud/sign-up-for-terraform-cloud-1.md)
+* [Create a Workspace](terraform-cloud/create-a-workspace.md)
 

@@ -88,7 +88,7 @@ Replace the organization and workspaces attribute values with the name of your T
 
 Now that you have defined your backend, you must authenticate with Terraform Cloud in order to proceed with initialization. In order to authenticate with Terraform Cloud, you should open page below to generate an API Token first
 
-![](.gitbook/assets/screen-shot-2020-08-05-at-1.43.43-pm.png)
+![](../.gitbook/assets/screen-shot-2020-08-05-at-1.43.43-pm.png)
 
 Click to create an API token button and give it a name.
 

@@ -10,8 +10,5 @@
 * [Configure a Workspace and Create Infrastructure](terraform-cloud/configure-a-workspace-and-create-infrastructure.md)
 * [Change Infrastructure via Version Control](terraform-cloud/change-infrastructure-via-version-control.md)
 * [Clean Up the Resources and Workspace](terraform-cloud/clean-up-the-resources-and-workspace.md)
-
----
-
-* [Migrate State to Terraform Cloud](untitled.md)
+* [Migrate State to Terraform Cloud](terraform-cloud/untitled.md)
 

@@ -7,14 +7,14 @@ description: >-
 
 # Sign up for Terraform Cloud
 
-## **Prerequisites**
+### **Prerequisites**
 
 While Terraform can provision resources on many different providers and connect with several popular version control systems \(VCSs\), this guide requires:
 
 * an AWS account
 * a GitHub account
 
-## **The workflow**
+### **The workflow**
 
 Terraform Cloud offers a team-oriented remote Terraform workflow.
 
@@ -30,7 +30,7 @@ A common workflow is:
 
 Since Terraform Cloud supports multiple users, you can collaborate with your team on each of these steps. For instance, each time you plan a new change, your team can see and approve the plan before it is applied.
 
-## Create your account
+### Create your account
 
 Create a Terraform Cloud account at [https://app.terraform.io/signup/account](https://app.terraform.io/signup/account).
 
@@ -42,7 +42,7 @@ For more information about account creation, refer to the [Terraform Documentati
 
 For information about accessing Terraform Cloud with the CLI or API, refer to the [Terraform Cloud API Documentation](https://www.terraform.io/docs/cloud/api/index.html).
 
-## Create your organization
+### Create your organization
 
 Terraform Cloud will prompt you to create a new organization after you sign in for the first time.
 

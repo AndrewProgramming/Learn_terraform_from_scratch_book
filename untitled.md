@@ -1,4 +1,4 @@
-# Untitled
+# Migrate State to Terraform Cloud
 
 As a current user of the Terraform CLI, you are responsible for maintaining a [state](https://www.terraform.io/docs/state/index.html) file as a source of truth for your cloud infrastructure. You can migrate your local state file to Terraform Cloud without interrupting or recreating your existing infrastructure.
 

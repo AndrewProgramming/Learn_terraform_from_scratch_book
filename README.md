@@ -65,3 +65,7 @@ Enter an organization name and email address. You can use the same email address
 
 **Note:** If you want to join an existing organization, give the organization's administrator the email address you used to create an account. They will be able to send you an invite.
 
+![](.gitbook/assets/new-organization.png)
+
+For more information about organization creation, refer to the [Terraform Documentation: Creating Organizations](https://www.terraform.io/docs/cloud/users-teams-organizations/organizations.html#creating-organizations).
+

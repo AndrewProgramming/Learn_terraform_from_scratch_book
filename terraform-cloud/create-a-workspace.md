@@ -30,3 +30,13 @@ Next, you will see a list of your GitHub repositories. Choose the repository you
 
 ![](../.gitbook/assets/choose-repo.png)
 
+## Create the workspace
+
+On the final step, leave the workspace name and "Advanced options" unchanged, and click the purple "Create workspace" button to create the workspace.
+
+![](../.gitbook/assets/configure-settings.png)
+
+It will take a few minutes for Terraform Cloud to connect to your GitHub repository. Once that's complete, you should see a notification that your configuration was uploaded successfully.
+
+![](../.gitbook/assets/configuration-upload.png)
+

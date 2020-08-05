@@ -1,35 +1,17 @@
-# Terraform Cloud
-
-## Terraform Cloud
-
-Terraform Cloud is an application that helps teams use Terraform together,it helps you collaborate on infrastructure. It manages Terraform runs in a consistent and reliable environment, and includes easy access to shared state and secret data, access controls for approving changes to infrastructure, a private registry for sharing Terraform modules, detailed policy controls for governing the contents of Terraform configurations, and more.
-
-Terraform Cloud is available as a hosted service at [https://app.terraform.io](https://app.terraform.io). We offer free accounts for small teams, and paid plans with additional feature sets for medium-sized businesses.
-
-Large enterprises can purchase Terraform Enterprise, our self-hosted distribution of Terraform Cloud. It offers enterprises a private instance of the Terraform Cloud application, with no resource limits and with additional enterprise-grade architectural features like audit logging and SAML single sign-on.
-
-![](.gitbook/assets/terraform_cloud_workflow.png)
-
-### About Product Names
-
-Before mid-2019, all distributions of Terraform Cloud used to be called Terraform Enterprise; the self-hosted distribution was called Private Terraform Enterprise \(PTFE\). These previous names sometimes still appear in supporting tools \(like [the `tfe` Terraform provider](https://registry.terraform.io/providers/hashicorp/tfe/latest), which is also intended for use with Terraform Cloud\).
-
-### Get Started With Terraform Cloud
-
-#### Sign up for Terraform Cloud
+# Sign up for Terraform Cloud
 
 In this guide, you will learn about how Terraform Cloud enables collaboration. Then, you will sign up for a Terraform Cloud account and create an organization.
 
 Over the course of this track, you will learn Terraform Cloud's core workflows and UI by deploying and managing an AWS DynamoDB instance.
 
-#### **Prerequisites**
+### **Prerequisites**
 
 While Terraform can provision resources on many different providers and connect with several popular version control systems \(VCSs\), this guide requires:
 
 * an AWS account
 * a GitHub account
 
-#### **The workflow**
+### **The workflow**
 
 Terraform Cloud offers a team-oriented remote Terraform workflow.
 
@@ -45,11 +27,11 @@ A common workflow is:
 
 Since Terraform Cloud supports multiple users, you can collaborate with your team on each of these steps. For instance, each time you plan a new change, your team can see and approve the plan before it is applied.
 
-### Create your account
+## Create your account
 
 Create a Terraform Cloud account at [https://app.terraform.io/signup/account](https://app.terraform.io/signup/account).
 
-![](.gitbook/assets/sign-up.png)
+![](../.gitbook/assets/sign-up.png)
 
 When you sign up, you'll also receive an email asking you to confirm your email address. Confirm your email address before moving on.
 
@@ -65,21 +47,7 @@ Enter an organization name and email address. You can use the same email address
 
 **Note:** If you want to join an existing organization, give the organization's administrator the email address you used to create an account. They will be able to send you an invite.
 
-![](.gitbook/assets/new-organization.png)
+![](../.gitbook/assets/new-organization.png)
 
 For more information about organization creation, refer to the [Terraform Documentation: Creating Organizations](https://www.terraform.io/docs/cloud/users-teams-organizations/organizations.html#creating-organizations).
-
-## Create a Workspace
-
-you will create your first version control system \(VCS\) enabled workspace with GitHub. This will enable you to collaborate with your team on Terraform configurations. You will learn how to create a Terraform Cloud workspace by connecting a VCS repository to Terraform Cloud.
-
-### Fork a Github repository
-
-Visit [the Terraform Cloud example repository](https://github.com/hashicorp/tfc-guide-example) and click the "Fork" button at the top right of the page to create a fork of the repository into your account.
-
-### Connect to GitHub
-
-If you've just signed up with Terraform Cloud and created a new organization, the first page you'll see is the "New Workspace" page. You can also create a new workspace by choosing "Workspaces" from the main menu, and then the "New Workspace" button.
-
-On the "New Workspace" page, select "GitHub" and then choose "GitHub.com" from the drop-down to continue.
 

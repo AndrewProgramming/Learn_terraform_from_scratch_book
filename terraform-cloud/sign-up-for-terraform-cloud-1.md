@@ -1,17 +1,20 @@
+---
+description: >-
+  In this guide, you will learn about how Terraform Cloud enables collaboration.
+  Then, you will sign up for a Terraform Cloud account and create an
+  organization.Over the course of this track, you will
+---
+
 # Sign up for Terraform Cloud
 
-In this guide, you will learn about how Terraform Cloud enables collaboration. Then, you will sign up for a Terraform Cloud account and create an organization.
-
-Over the course of this track, you will learn Terraform Cloud's core workflows and UI by deploying and managing an AWS DynamoDB instance.
-
-### **Prerequisites**
+## **Prerequisites**
 
 While Terraform can provision resources on many different providers and connect with several popular version control systems \(VCSs\), this guide requires:
 
 * an AWS account
 * a GitHub account
 
-### **The workflow**
+## **The workflow**
 
 Terraform Cloud offers a team-oriented remote Terraform workflow.
 
@@ -39,7 +42,7 @@ For more information about account creation, refer to the [Terraform Documentati
 
 For information about accessing Terraform Cloud with the CLI or API, refer to the [Terraform Cloud API Documentation](https://www.terraform.io/docs/cloud/api/index.html).
 
-### Create your organization
+## Create your organization
 
 Terraform Cloud will prompt you to create a new organization after you sign in for the first time.
 

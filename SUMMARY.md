@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Terraform Cloud](README.md)
-* [Untitled](untitled.md)
 
 ## Terraform Cloud
 
